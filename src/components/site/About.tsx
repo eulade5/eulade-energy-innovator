@@ -43,10 +43,10 @@ export function About() {
               meant to be deployed — not theorised.
             </p>
             <p>
-              Today, I'm channelling that practice into LANGO Energy, a venture
-              creating scalable solar and cold-storage infrastructure for
-              emerging African markets where reliable energy unlocks everything
-              else.
+              Today, I'm channelling that practice into three energy ventures
+              in build — including LANGO Energy — creating scalable solar,
+              cold-storage and infrastructure solutions for emerging African
+              markets where reliable energy unlocks everything else.
             </p>
           </div>
         </div>
