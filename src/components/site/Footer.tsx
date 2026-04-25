@@ -42,6 +42,8 @@ export function Footer() {
                 <a
                   key={s.label}
                   href={s.href}
+                  target={s.href.startsWith("http") ? "_blank" : undefined}
+                  rel={s.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   aria-label={s.label}
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-border transition-all hover:bg-foreground hover:text-background"
                 >
