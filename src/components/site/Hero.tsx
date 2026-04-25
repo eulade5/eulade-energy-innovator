@@ -16,7 +16,7 @@ export function Hero() {
             style={{ animationDelay: "0.1s" }}
           >
             <span className="h-px w-10 bg-foreground/40" />
-            Engineer · Founder · Mauritius
+            Engineer · Founder · Rwanda
           </div>
 
           <h1

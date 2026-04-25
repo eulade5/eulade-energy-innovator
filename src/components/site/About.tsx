@@ -2,10 +2,9 @@ import { SectionHeader } from "./SectionHeader";
 import { useReveal } from "@/hooks/use-reveal";
 
 const stats = [
-  { value: "B.Eng", label: "Electrical Power Engineering" },
+  { value: "MEng", label: "Electrical Power Engineering" },
   { value: "5+", label: "Years in the field" },
-  { value: "1", label: "Energy venture in build" },
-  { value: "∞", label: "Curiosity" },
+  { value: "3", label: "Energy ventures in building" },
 ];
 
 export function About() {
@@ -52,7 +51,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="mt-20 grid grid-cols-2 gap-px overflow-hidden border border-border bg-border md:grid-cols-4">
+        <div className="mt-20 grid grid-cols-1 gap-px overflow-hidden border border-border bg-border sm:grid-cols-3">
           {stats.map((s) => (
             <div
               key={s.label}
