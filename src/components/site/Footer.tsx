@@ -62,7 +62,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col items-start justify-between gap-3 border-t border-border pt-8 text-xs text-muted-foreground md:flex-row md:items-center">
           <span>© {new Date().getFullYear()} Eulade — All rights reserved.</span>
-          <span className="font-mono">v1.0 · Mauritius / Africa</span>
+          <span className="font-mono">v1.0 · Rwanda / Africa</span>
         </div>
       </div>
     </footer>

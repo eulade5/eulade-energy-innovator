@@ -2,10 +2,9 @@ import { SectionHeader } from "./SectionHeader";
 import { useReveal } from "@/hooks/use-reveal";
 
 const stats = [
-  { value: "B.Eng", label: "Electrical Power Engineering" },
+  { value: "MEng", label: "Electrical Power Engineering" },
   { value: "5+", label: "Years in the field" },
-  { value: "1", label: "Energy venture in build" },
-  { value: "∞", label: "Curiosity" },
+  { value: "3", label: "Energy ventures in building" },
 ];
 
 export function About() {
@@ -44,15 +43,15 @@ export function About() {
               meant to be deployed — not theorised.
             </p>
             <p>
-              Today, I'm channelling that practice into LANGO Energy, a venture
-              creating scalable solar and cold-storage infrastructure for
-              emerging African markets where reliable energy unlocks everything
-              else.
+              Today, I'm channelling that practice into three energy ventures
+              in build — including LANGO Energy — creating scalable solar,
+              cold-storage and infrastructure solutions for emerging African
+              markets where reliable energy unlocks everything else.
             </p>
           </div>
         </div>
 
-        <div className="mt-20 grid grid-cols-2 gap-px overflow-hidden border border-border bg-border md:grid-cols-4">
+        <div className="mt-20 grid grid-cols-1 gap-px overflow-hidden border border-border bg-border sm:grid-cols-3">
           {stats.map((s) => (
             <div
               key={s.label}

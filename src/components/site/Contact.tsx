@@ -61,7 +61,7 @@ export function Contact() {
                   Based in
                 </span>
                 <span className="mt-1 block font-display text-2xl font-light">
-                  Mauritius — Working with Africa
+                  Rwanda — Working with Africa
                 </span>
               </div>
             </div>
