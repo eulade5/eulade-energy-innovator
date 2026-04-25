@@ -1,4 +1,4 @@
-import portrait from "@/assets/eulade-portrait.jpg";
+import portrait from "@/assets/eulade-portrait.png";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, ArrowDown } from "lucide-react";
 
